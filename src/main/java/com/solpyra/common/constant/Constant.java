@@ -11,6 +11,7 @@ public class Constant {
   public static final String ACCESS = "access";
   public static final String REFRESH = "refresh";
   public static final String SALT = "salt";
+  public static final String TENANT = "tenant";
 
 
   public static final String MEDIA = "media";

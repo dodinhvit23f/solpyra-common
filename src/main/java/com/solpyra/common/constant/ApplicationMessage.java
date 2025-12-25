@@ -12,7 +12,7 @@ public class ApplicationMessage {
     public static final String OLD_PASSWORD_NOT_EMPTY = "ERROR_008";
     public static final String NEW_PASSWORD_NOT_EMPTY = "ERROR_009";
     public static final String PASSWORD_NOT_CORRECT = "ERROR_010";
-    public static final String INVAlID_TOKEN = "ERROR_011";
+    public static final String INVALID_TOKEN = "ERROR_011";
     public static final String INVALID_FILE_TYPE = "ERROR_012";
     public static final String INVALID_CONTENT_TYPE = "ERROR_013";
     public static final String EMPTY_FILE = "ERROR_014";
@@ -25,6 +25,39 @@ public class ApplicationMessage {
     public static final String ORDER_NOT_EXIST = "ERROR_021";
     public static final String FILE_UPLOAD_FAIL = "ERROR_022";
     public static final String FILE_UPLOAD_NOT_VALID_TYPE = "ERROR_023";
+    public static final String FACILITY_NOT_FOUND = "ERROR_024";
+    public static final String EMPLOYEE_NOT_FOUND = "ERROR_025";
+    public static final String EMPLOYEE_ID_ALREADY_EXISTS = "ERROR_026";
+    public static final String EMAIL_ALREADY_EXISTS = "ERROR_027";
+    public static final String QR_CODE_GENERATION_FAILED = "ERROR_028";
+
+    // Employee validation messages
+    public static final String EMPLOYEE_ID_IS_REQUIRED = "ERROR_029";
+    public static final String FULL_NAME_IS_REQUIRED = "ERROR_030";
+    public static final String EMAIL_IS_REQUIRED = "ERROR_031";
+    public static final String INVALID_EMAIL_FORMAT = "ERROR_032";
+    public static final String PHONE_NUMBER_IS_REQUIRED = "ERROR_033";
+    public static final String ID_IS_REQUIRED = "ERROR_034";
+    public static final String ACTIVE_STATUS_IS_REQUIRED = "ERROR_035";
+    public static final String VERSION_IS_REQUIRED = "ERROR_036";
+
+    // Facility validation messages
+    public static final String NAME_IS_REQUIRED = "ERROR_037";
+    public static final String ADDRESS_IS_REQUIRED = "ERROR_038";
+    public static final String LATITUDE_IS_REQUIRED = "ERROR_039";
+    public static final String LONGITUDE_IS_REQUIRED = "ERROR_040";
+
+    // Authentication validation messages
+    public static final String TENANT_IS_EMPTY = "ERROR_041";
+    public static final String USERNAME_MAX_LENGTH_EXCEEDED = "ERROR_042";
+    public static final String PHONE_NUMBER_MAX_LENGTH_EXCEEDED = "ERROR_043";
+    public static final String TENANT_MAX_LENGTH_EXCEEDED = "ERROR_044";
+    public static final String OTP_SECRET_IS_EMPTY = "ERROR_045";
+    public static final String ACCESS_TOKEN_IS_EMPTY = "ERROR_046";
+    public static final String REFRESH_TOKEN_IS_EMPTY = "ERROR_047";
+    public static final String OTP_TOKEN_IS_EMPTY = "ERROR_048";
+    public static final String OTP_CODE_IS_EMPTY = "ERROR_049";
+    public static final String UNAUTHORIZED_ACCESS = "ERROR_050";
   }
 
 }
