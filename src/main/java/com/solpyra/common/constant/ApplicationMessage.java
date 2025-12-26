@@ -46,6 +46,8 @@ public class ApplicationMessage {
     public static final String ADDRESS_IS_REQUIRED = "ERROR_038";
     public static final String LATITUDE_IS_REQUIRED = "ERROR_039";
     public static final String LONGITUDE_IS_REQUIRED = "ERROR_040";
+    public static final String ALLOW_DISTANCE_MIN = "ERROR_051";
+    public static final String ALLOW_DISTANCE_MAX = "ERROR_052";
 
     // Authentication validation messages
     public static final String TENANT_IS_EMPTY = "ERROR_041";
@@ -58,6 +60,7 @@ public class ApplicationMessage {
     public static final String OTP_TOKEN_IS_EMPTY = "ERROR_048";
     public static final String OTP_CODE_IS_EMPTY = "ERROR_049";
     public static final String UNAUTHORIZED_ACCESS = "ERROR_050";
+
   }
 
 }
