@@ -1,4 +1,4 @@
-package com.solpyra.common.dto.response;
+package com.solpyra.common.dtos;
 
 import java.util.Map;
 import java.util.Set;

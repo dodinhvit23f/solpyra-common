@@ -1,6 +1,5 @@
-package com.solpyra.common.dto.response;
+package com.solpyra.common.dtos;
 
-import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -14,5 +13,4 @@ public class PageObject {
     private int page;
     private int totalPage;
     private int pageSize;
-    private List<?> list;
 }
