@@ -1,16 +1,17 @@
 package com.solpyra.common.dtos;
 
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.experimental.SuperBuilder;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
+@SuperBuilder(toBuilder = true)
 public class PageObject {
-    private int page;
-    private int totalPage;
-    private int pageSize;
+  protected int page;
+  protected int totalPages;
+  protected long totalElements;
+  protected int pageSize;
 }
