@@ -52,6 +52,8 @@ public class ApplicationMessage {
     public static final String VERSION_IS_REQUIRED = "ERROR_EMPLOYEE_010";
     public static final String ROLE_IS_REQUIRED = "ERROR_EMPLOYEE_011";
     public static final String FACILITY_IDS_IS_REQUIRED = "ERROR_EMPLOYEE_012";
+    public static final String USERNAME_ALREADY_EXISTS = "ERROR_EMPLOYEE_013";
+    public static final String ROLE_NAME_NOT_FOUND = "ERROR_EMPLOYEE_014";
 
     /* ===================== QR (001+) ===================== */
     public static final String QR_CODE_GENERATION_FAILED = "ERROR_QR_001";
@@ -64,6 +66,12 @@ public class ApplicationMessage {
     public static final String NOT_CHECKED_IN_YET = "ERROR_ATTENDANCE_005";
     public static final String USERNAME_MISMATCH = "ERROR_ATTENDANCE_006";
     public static final String CHECK_IN_DATE_REQUIRED = "ERROR_ATTENDANCE_007";
+    public static final String NO_ATTENDANCE_RECORDS_FOUND = "ERROR_ATTENDANCE_008";
+    public static final String EXPORT_START_DATE_REQUIRED = "ERROR_ATTENDANCE_009";
+    public static final String EXPORT_END_DATE_REQUIRED = "ERROR_ATTENDANCE_010";
+    public static final String EXPORT_DATE_RANGE_INVALID = "ERROR_ATTENDANCE_011";
+    public static final String EXPORT_FAILED = "ERROR_ATTENDANCE_012";
+    public static final String GOOGLE_API_ERROR = "ERROR_ATTENDANCE_013";
 
     /* ===================== ORDER (001+) ===================== */
     public static final String ORDER_CODE_NOT_EMPTY = "ERROR_ORDER_001";
