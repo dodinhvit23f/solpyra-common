@@ -62,9 +62,9 @@ public class ApplicationMessage {
     public static final String ATTENDANCE_NOT_FOUND = "ERROR_ATTENDANCE_001";
     public static final String QR_CODE_INVALID = "ERROR_ATTENDANCE_002";
     public static final String QR_CODE_EXPIRED = "ERROR_ATTENDANCE_003";
-    public static final String ALREADY_CHECKED_IN = "ERROR_ATTENDANCE_004";
-    public static final String NOT_CHECKED_IN_YET = "ERROR_ATTENDANCE_005";
-    public static final String USERNAME_MISMATCH = "ERROR_ATTENDANCE_006";
+    public static final String LONGITUDE_REQUIRED = "ERROR_ATTENDANCE_004";
+    public static final String LATITUDE_REQUIRED = "ERROR_ATTENDANCE_005";
+    public static final String FACILITIES_NOT_FOUND = "ERROR_ATTENDANCE_006";
     public static final String CHECK_IN_DATE_REQUIRED = "ERROR_ATTENDANCE_007";
     public static final String NO_ATTENDANCE_RECORDS_FOUND = "ERROR_ATTENDANCE_008";
     public static final String EXPORT_START_DATE_REQUIRED = "ERROR_ATTENDANCE_009";
