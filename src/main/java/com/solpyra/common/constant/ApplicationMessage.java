@@ -29,6 +29,7 @@ public class ApplicationMessage {
     public static final String USER_NAME_IS_REQUIRED = "ERROR_AUTH_023";
     public static final String USER_PASSWORD_IS_REQUIRED = "ERROR_AUTH_024";
     public static final String USER_PASSWORD_MIN_REQUIRED = "ERROR_AUTH_025";
+    public static final String TENANT_NOT_FOUND = "ERROR_AUTH_026";
 
     /* ===================== FACILITY (001+) ===================== */
     public static final String FACILITY_NOT_FOUND = "ERROR_FACILITY_001";
@@ -60,12 +61,12 @@ public class ApplicationMessage {
 
     /* ===================== ATTENDANCE (001+) ===================== */
     public static final String ATTENDANCE_NOT_FOUND = "ERROR_ATTENDANCE_001";
-    public static final String QR_CODE_INVALID = "ERROR_ATTENDANCE_002";
+    public static final String NOT_IN_ALLOWED_DISTANCE = "ERROR_ATTENDANCE_002";
     public static final String QR_CODE_EXPIRED = "ERROR_ATTENDANCE_003";
     public static final String LONGITUDE_REQUIRED = "ERROR_ATTENDANCE_004";
     public static final String LATITUDE_REQUIRED = "ERROR_ATTENDANCE_005";
     public static final String FACILITIES_NOT_FOUND = "ERROR_ATTENDANCE_006";
-    public static final String CHECK_IN_DATE_REQUIRED = "ERROR_ATTENDANCE_007";
+    public static final String FACILITY_REQUIRED= "ERROR_ATTENDANCE_007";
     public static final String NO_ATTENDANCE_RECORDS_FOUND = "ERROR_ATTENDANCE_008";
     public static final String EXPORT_START_DATE_REQUIRED = "ERROR_ATTENDANCE_009";
     public static final String EXPORT_END_DATE_REQUIRED = "ERROR_ATTENDANCE_010";
