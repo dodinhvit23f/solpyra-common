@@ -76,6 +76,10 @@ public class ApplicationMessage {
 
     /* ===================== ORDER (001+) ===================== */
     public static final String ORDER_CODE_NOT_EMPTY = "ERROR_ORDER_001";
+
+
+    /* ===================== Optimistic (001+) ===================== */
+    public static final String RECORD_HAVE_BEEN_CHANGED = "ERROR_OPT_001";
   }
 
 }
