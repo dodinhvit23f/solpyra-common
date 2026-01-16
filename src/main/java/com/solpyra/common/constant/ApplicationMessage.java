@@ -74,6 +74,14 @@ public class ApplicationMessage {
     public static final String EXPORT_FAILED = "ERROR_ATTENDANCE_012";
     public static final String GOOGLE_API_ERROR = "ERROR_ATTENDANCE_013";
 
+    /* ===================== SHIFT (001+) ===================== */
+    public static final String SHIFT_NOT_FOUND = "ERROR_SHIFT_001";
+    public static final String SHIFT_NAME_IS_EMPTY = "ERROR_SHIFT_002";
+    public static final String SHIFT_START_TIME_IS_REQUIRED = "ERROR_SHIFT_003";
+    public static final String SHIFT_END_TIME_IS_REQUIRED = "ERROR_SHIFT_004";
+    public static final String SHIFT_ID_IS_REQUIRED = "ERROR_SHIFT_005";
+    public static final String SHIFT_NAME_ALREADY_EXISTS = "ERROR_SHIFT_006";
+
     /* ===================== ORDER (001+) ===================== */
     public static final String ORDER_CODE_NOT_EMPTY = "ERROR_ORDER_001";
 
