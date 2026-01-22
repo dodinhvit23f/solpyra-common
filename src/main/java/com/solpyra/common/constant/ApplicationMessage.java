@@ -88,6 +88,11 @@ public class ApplicationMessage {
 
     /* ===================== Optimistic (001+) ===================== */
     public static final String RECORD_HAVE_BEEN_CHANGED = "ERROR_OPT_001";
+
+    /* ===================== KAFKA (001+) ===================== */
+    public static final String KAFKA_KEY_IS_REQUIRED = "ERROR_KFK_001";
+    public static final String KAFKA_TOPIC_IS_REQUIRED = "ERROR_KFK_002";
+    public static final String KAFKA_REQUEST_IS_REQUIRED = "ERROR_KFK_003";
   }
 
 }
