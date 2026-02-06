@@ -39,6 +39,8 @@ public class ApplicationMessage {
     public static final String LONGITUDE_IS_REQUIRED = "ERROR_FACILITY_005";
     public static final String ALLOW_DISTANCE_MIN = "ERROR_FACILITY_006";
     public static final String ALLOW_DISTANCE_MAX = "ERROR_FACILITY_007";
+    public static final String FACILITY_ID_REQUIRED = "ERROR_FACILITY_008";
+    public static final String FACILITY_NOT_ACCESSIBLE = "ERROR_FACILITY_009";
 
     /* ===================== EMPLOYEE (001+) ===================== */
     public static final String EMPLOYEE_NOT_FOUND = "ERROR_EMPLOYEE_001";
@@ -55,6 +57,9 @@ public class ApplicationMessage {
     public static final String FACILITY_IDS_IS_REQUIRED = "ERROR_EMPLOYEE_012";
     public static final String USERNAME_ALREADY_EXISTS = "ERROR_EMPLOYEE_013";
     public static final String ROLE_NAME_NOT_FOUND = "ERROR_EMPLOYEE_014";
+    public static final String EMPLOYEE_ID_REQUIRED = "ERROR_EMPLOYEE_015";
+    public static final String USER_NOT_IN_MANAGER_FACILITY = "ERROR_EMPLOYEE_016";
+    public static final String MANAGER_NO_FACILITIES = "ERROR_EMPLOYEE_017";
 
     /* ===================== QR (001+) ===================== */
     public static final String QR_CODE_GENERATION_FAILED = "ERROR_QR_001";
@@ -73,6 +78,12 @@ public class ApplicationMessage {
     public static final String EXPORT_DATE_RANGE_INVALID = "ERROR_ATTENDANCE_011";
     public static final String EXPORT_FAILED = "ERROR_ATTENDANCE_012";
     public static final String GOOGLE_API_ERROR = "ERROR_ATTENDANCE_013";
+    public static final String CHECK_IN_DATE_REQUIRED = "ERROR_ATTENDANCE_014";
+    public static final String CHECK_IN_TIME_REQUIRED = "ERROR_ATTENDANCE_015";
+    public static final String CHECK_IN_DATE_CANNOT_BE_FUTURE = "ERROR_ATTENDANCE_016";
+    public static final String CHECK_OUT_MUST_BE_AFTER_CHECK_IN = "ERROR_ATTENDANCE_017";
+    public static final String REASON_REQUIRED = "ERROR_ATTENDANCE_018";
+    public static final String REASON_TOO_LONG = "ERROR_ATTENDANCE_019";
 
     /* ===================== SHIFT (001+) ===================== */
     public static final String SHIFT_NOT_FOUND = "ERROR_SHIFT_001";
@@ -81,6 +92,12 @@ public class ApplicationMessage {
     public static final String SHIFT_END_TIME_IS_REQUIRED = "ERROR_SHIFT_004";
     public static final String SHIFT_ID_IS_REQUIRED = "ERROR_SHIFT_005";
     public static final String SHIFT_NAME_ALREADY_EXISTS = "ERROR_SHIFT_006";
+    public static final String SHIFT_NOT_ACTIVE = "ERROR_SHIFT_007";
+    public static final String ASSIGN_DATE_MUST_BE_FUTURE = "ERROR_SHIFT_008";
+    public static final String ASSIGN_DATE_IS_REQUIRED = "ERROR_SHIFT_009";
+    public static final String SHIFT_ASSIGNMENT_EMPTY = "ERROR_SHIFT_010";
+    public static final String USER_ID_REQUIRED = "ERROR_SHIFT_011";
+    public static final String SHIFT_ID_REQUIRED = "ERROR_SHIFT_012";
 
     /* ===================== ORDER (001+) ===================== */
     public static final String ORDER_CODE_NOT_EMPTY = "ERROR_ORDER_001";
