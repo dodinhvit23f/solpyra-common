@@ -30,6 +30,7 @@ public class ApplicationMessage {
     public static final String USER_PASSWORD_IS_REQUIRED = "ERROR_AUTH_024";
     public static final String USER_PASSWORD_MIN_REQUIRED = "ERROR_AUTH_025";
     public static final String TENANT_NOT_FOUND = "ERROR_AUTH_026";
+    public static final String OTP_RATE_LIMIT_EXCEEDED = "ERROR_AUTH_027";
 
     /* ===================== FACILITY (001+) ===================== */
     public static final String FACILITY_NOT_FOUND = "ERROR_FACILITY_001";
