@@ -88,6 +88,7 @@ public class ApplicationMessage {
     public static final String REASON_REQUIRED_EARLY_CHECK_IN = "ERROR_ATTENDANCE_020";
     public static final String REASON_REQUIRED_LATE_CHECK_OUT = "ERROR_ATTENDANCE_021";
     public static final String ATTENDANCE_NOT_SUPPORTED_FOR_TENANT = "ERROR_ATTENDANCE_022";
+    public static final String CHECK_OUT_SHIFT_MISMATCH = "ERROR_ATTENDANCE_023";
 
     /* ===================== SHIFT (001+) ===================== */
     public static final String SHIFT_NOT_FOUND = "ERROR_SHIFT_001";
