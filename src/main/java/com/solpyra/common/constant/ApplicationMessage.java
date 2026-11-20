@@ -89,6 +89,17 @@ public class ApplicationMessage {
     public static final String REASON_REQUIRED_LATE_CHECK_OUT = "ERROR_ATTENDANCE_021";
     public static final String ATTENDANCE_NOT_SUPPORTED_FOR_TENANT = "ERROR_ATTENDANCE_022";
     public static final String CHECK_OUT_SHIFT_MISMATCH = "ERROR_ATTENDANCE_023";
+    public static final String OVERTIME_INVALID_RANGE = "ERROR_ATTENDANCE_024";
+    public static final String OVERTIME_MUST_BE_WITHIN_ONE_DAY = "ERROR_ATTENDANCE_025";
+    public static final String OVERTIME_CANNOT_BE_FUTURE = "ERROR_ATTENDANCE_026";
+    public static final String OVERTIME_SHIFT_REQUIRED = "ERROR_ATTENDANCE_027";
+    public static final String OVERTIME_CHECK_OUT_REQUIRED = "ERROR_ATTENDANCE_028";
+    public static final String OVERTIME_EXCEEDS_CHECK_OUT = "ERROR_ATTENDANCE_029";
+    public static final String OVERTIME_OVERLAPS_SHIFT = "ERROR_ATTENDANCE_030";
+    public static final String OVERTIME_OVERLAPS_EXISTING = "ERROR_ATTENDANCE_031";
+    public static final String OVERTIME_NOT_FOUND = "ERROR_ATTENDANCE_032";
+    public static final String OVERTIME_START_REQUIRED = "ERROR_ATTENDANCE_033";
+    public static final String OVERTIME_END_REQUIRED = "ERROR_ATTENDANCE_034";
 
     /* ===================== SHIFT (001+) ===================== */
     public static final String SHIFT_NOT_FOUND = "ERROR_SHIFT_001";
