@@ -100,6 +100,7 @@ public class ApplicationMessage {
     public static final String OVERTIME_NOT_FOUND = "ERROR_ATTENDANCE_032";
     public static final String OVERTIME_START_REQUIRED = "ERROR_ATTENDANCE_033";
     public static final String OVERTIME_END_REQUIRED = "ERROR_ATTENDANCE_034";
+    public static final String CHECK_IN_DATE_MISMATCH = "ERROR_ATTENDANCE_035";
 
     /* ===================== SHIFT (001+) ===================== */
     public static final String SHIFT_NOT_FOUND = "ERROR_SHIFT_001";
